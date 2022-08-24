@@ -12,5 +12,11 @@ public class main {
     System.out.println("-------------------");
     Perro perro2 = new Perro(10,true,false);
     perro2.mePuedenAdoptar();
+    Double superDos = 2.;
+    double dos=2;
+    Double superDosDos = (Double) dos;
+    System.out.println("soy un super dos hashcode: "+ superDos.hashCode());
+        System.out.println("soy un super dos dos hashcode: "+ superDosDos.hashCode());
+
     }
 }
